@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,19 +42,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global GUI and cross-platform application development software market is valued at approximately $14B–$15.6B (scaling beyond $28B when accounting for broader UI/UX design and tooling ecosystems) and projected to expand at an 11%–16% CAGR toward 2030. The sector exhibits a hybrid market structure: it is concentrated at the core infrastructure layer (anchored by foundational ecosystems from tech giants like Google, Microsoft, and Meta alongside key commercial pillars like The Qt Company), while remaining moderately to highly fragmented across specialized commercial IDEs, independent component vendors, and niche application toolkits.
+
+
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[Delphi / Embarcadero RAD Studio](https://www.embarcadero.com/)**  
-
-  Commercial IDE and framework for native Windows, macOS, iOS, and Android development using Object Pascal and C++. Long-standing rapid application development (RAD) tool with strong database integration. Proprietary, per-seat licensing.
-
-
-
-- **[Qt Commercial](https://www.qt.io/)**  
-
-  Commercial licensing tier for Qt, required for proprietary static linking and certain modules. Provides indemnification, priority support, and access to commercial-only modules. **Note**: Qt's open-source Community Edition is LGPL/GPL, but commercial use often requires the commercial license to avoid copyleft obligations or static linking restrictions .
+| Platform | Company Scale (Revenue / Valuation) | Pricing (Starting Tier) | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Delphi / Embarcadero RAD Studio](https://www.embarcadero.com/)** | ~$3B Valuation / >$300M ARR (Parent: Idera, Inc.) | $1,583 per seat (perpetual license with 1-yr maintenance for Delphi Pro; RAD Studio Pro from $2,573) | 30-day fully functional free trial (Architect edition); Community Edition available free for individuals/startups with <$5,000/yr revenue and max 5 users | Commercial IDE and framework for native Windows, macOS, iOS, and Android development using Object Pascal and C++. Known for rapid application development (RAD) and enterprise database connectivity. |
+| **[Qt Commercial](https://www.qt.io/)** | €1.3B–€1.5B Market Cap (~$1.4B–$1.6B) / €209M–€216M Net Sales (Qt Group Plc, `QTCOM`) | $618 per developer/yr (€546/yr, Qt for Application Development Enterprise - Small Business tier under $1M revenue; standard enterprise starts from $3,024/yr) | 10-day evaluation trial (all commercial packages and support included; strictly non-production evaluation only, extendable upon sales request) | Commercial licensing and support suite for Qt, enabling proprietary static linking, commercial-only add-ons, and full indemnification without copyleft (LGPL/GPL) obligations. |
 
 
 
