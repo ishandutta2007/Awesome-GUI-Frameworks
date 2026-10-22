@@ -142,19 +142,19 @@
 
   <!-- Subtitle Line 2 / Feature Pills Line -->
   <text x="600" y="238" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="400">
-    ⚡ High Performance Desktop &bull; 🌐 Modern Web Shells &bull; 📱 Cross-Platform Toolkits &bull; 🔒 Permissive &amp; Commercial Licensures
+    ⚡ High Performance Desktop &#8226; 🌐 Modern Web Shells &#8226; 📱 Cross-Platform Toolkits &#8226; 🔒 Permissive &amp; Commercial Licensures
   </text>
 
   <!-- Bottom Interactive Stats / Platform Chips -->
   <g transform="translate(600, 282)" text-anchor="middle">
     <rect x="-240" y="-15" width="480" height="30" rx="15" fill="#0f172a" stroke="#334155" stroke-width="1" />
     <text y="5" fill="#e2e8f0" font-size="12" font-weight="600">
-      <tspan fill="#38bdf8">C++</tspan> &bull; 
-      <tspan fill="#818cf8">Rust</tspan> &bull; 
-      <tspan fill="#c084fc">Go</tspan> &bull; 
-      <tspan fill="#38bdf8">Dart</tspan> &bull; 
-      <tspan fill="#818cf8">C# / .NET</tspan> &bull; 
-      <tspan fill="#c084fc">Python</tspan> &bull; 
+      <tspan fill="#38bdf8">C++</tspan> &#8226; 
+      <tspan fill="#818cf8">Rust</tspan> &#8226; 
+      <tspan fill="#c084fc">Go</tspan> &#8226; 
+      <tspan fill="#38bdf8">Dart</tspan> &#8226; 
+      <tspan fill="#818cf8">C# / .NET</tspan> &#8226; 
+      <tspan fill="#c084fc">Python</tspan> &#8226; 
       <tspan fill="#38bdf8">JavaScript / TypeScript</tspan>
     </text>
   </g>
