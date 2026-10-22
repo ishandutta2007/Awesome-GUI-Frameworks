@@ -239,7 +239,7 @@ Contributions from developers, framework maintainers, and community enthusiasts 
 2. 🌿 **Create a new branch**: `git checkout -b add/my-gui-framework`.
 3. 📝 **Add or update an entry** under the relevant section following the standardized template:
    - Framework Name & official GitHub/website link
-   - GitHub stars social badge linking to stargazers
+   - GitHub_Stars social badge linking to stargazers
    - Architecture & primary programming languages
    - Accurate, factual 2–3 sentence description
 4. 📬 **Submit a Pull Request** with a brief summary of the framework and why it belongs in this curated list.
