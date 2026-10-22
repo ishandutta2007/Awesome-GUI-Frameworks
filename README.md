@@ -1,164 +1,279 @@
-# Awesome-GUI-Frameworks
+# 🖼️ Awesome GUI Frameworks
 
-## Top GUI Frameworks Ecosystem
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome GUI Frameworks Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-GUI-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-GUI-Frameworks?style=social&color=white" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-GUI-Frameworks/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-GUI-Frameworks?style=social&color=white" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-GUI-Frameworks/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-GUI-Frameworks/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🎯 Top GUI Frameworks & Cross-Platform Desktop Ecosystem
 
-*Focused on Native Desktop UIs, Cross-Platform Abstractions & Self-Hosted Application Toolkits*  
+> **A curated directory and developer guide to top open-source GUI libraries, desktop application toolkits, cross-platform frameworks, and SaaS platforms.**  
+> *Covering native widgets, custom hardware-accelerated 2D/3D renderers, immediate-mode GUIs, and lightweight web-view shells across C++, Rust, Go, Python, C#/.NET, Dart, and JavaScript/TypeScript.*
 
-**Last updated: October 2026**
+**Last updated:** October 2026
 
+Whether you are architecting a resource-constrained embedded interface, a high-performance audio plugin, a cross-platform enterprise desktop client, or a sleek developer productivity tool, choosing the right **GUI framework** determines long-term maintainability, bundle size, binary distribution ease, memory footprint, and licensing safety.
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **GUI Frameworks**. These tools provide the foundational layers for building desktop applications—window management, widgets, layout systems, and event handling—ranging from native-widget wrappers to fully custom-rendered toolkits and web-technology-based shells.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+- [🌐 Open-Source GitHub Projects (Ranked by Stars)](#-open-source-github-projects-ranked-by-stars)
+- [💡 Architectural Guide: How to Choose](#-architectural-guide-how-to-choose)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer & Licensing Notes](#️-disclaimer--licensing-notes)
 
+---
 
-**Examples** include Qt, wxWidgets, Flutter Desktop, Electron, Avalonia UI, .NET MAUI, JUCE, and GTK (the category leaders).
+## 📊 Sector Overview & Market Dynamics
 
+The global GUI and cross-platform application development software market is valued at approximately **$14B–$15.6B** (scaling beyond **$28B** when accounting for UI/UX design tools, component libraries, and visual development suites) and is projected to expand at a compound annual growth rate (**CAGR of 11%–16%**) through 2030. 
 
+The industry displays a distinct **hybrid market structure**:
+- **Concentrated at the Core Infrastructure Tier:** Foundational desktop engines and mobile-to-desktop cross-platform SDKs are concentrated among major tech leaders and long-standing specialized vendors (Google with Flutter, Microsoft with .NET MAUI/WinUI, Meta with React Native Desktop, and The Qt Company for industrial embedded/desktop systems).
+- **Fragmented Across Developer Tooling & Languages:** The broader ecosystem is moderately to highly fragmented. Developers increasingly move toward modern memory-safe languages (Rust with Tauri, Slint, and iced; Go with Wails and Fyne) and specialized niches (JUCE for digital audio workstations, Dear ImGui for game engine tools, and Electron for rapid web-to-desktop shipping), giving rise to hundreds of community-driven component libraries and specialized runtime wrappers.
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, native-look-and-feel preservation, and transparent UI toolkits—ideal for desktop developers, embedded UI engineers, and teams that need control over their application's runtime and licensing. The open-source landscape is anchored by **Qt** (the most complete C++/QML toolkit, dual-licensed), **wxWidgets** (native widgets with a permissive license), **Flutter** (Google's custom-rendered cross-platform UI), **Electron** (web technologies on the desktop), and **Avalonia** (.NET's cross-platform XAML framework), with **JUCE** serving the audio/plugin niche and **GTK** powering the Linux desktop ecosystem.
+---
 
+## 💼 SaaS & Commercial Hosted Platforms
 
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The global GUI and cross-platform application development software market is valued at approximately $14B–$15.6B (scaling beyond $28B when accounting for broader UI/UX design and tooling ecosystems) and projected to expand at an 11%–16% CAGR toward 2030. The sector exhibits a hybrid market structure: it is concentrated at the core infrastructure layer (anchored by foundational ecosystems from tech giants like Google, Microsoft, and Meta alongside key commercial pillars like The Qt Company), while remaining moderately to highly fragmented across specialized commercial IDEs, independent component vendors, and niche application toolkits.
-
-
-
-## SaaS/Hosted Platforms
+The following commercial frameworks and hosted IDE solutions provide turnkey cross-platform toolkits, proprietary static-linking exemptions, official customer SLAs, and enterprise indemnification:
 
 | Platform | Company Scale (Revenue / Valuation) | Pricing (Starting Tier) | Free Tier / Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Delphi / Embarcadero RAD Studio](https://www.embarcadero.com/)** | ~$3B Valuation / >$300M ARR (Parent: Idera, Inc.) | $1,583 per seat (perpetual license with 1-yr maintenance for Delphi Pro; RAD Studio Pro from $2,573) | 30-day fully functional free trial (Architect edition); Community Edition available free for individuals/startups with <$5,000/yr revenue and max 5 users | Commercial IDE and framework for native Windows, macOS, iOS, and Android development using Object Pascal and C++. Known for rapid application development (RAD) and enterprise database connectivity. |
 | **[Qt Commercial](https://www.qt.io/)** | €1.3B–€1.5B Market Cap (~$1.4B–$1.6B) / €209M–€216M Net Sales (Qt Group Plc, `QTCOM`) | $618 per developer/yr (€546/yr, Qt for Application Development Enterprise - Small Business tier under $1M revenue; standard enterprise starts from $3,024/yr) | 10-day evaluation trial (all commercial packages and support included; strictly non-production evaluation only, extendable upon sales request) | Commercial licensing and support suite for Qt, enabling proprietary static linking, commercial-only add-ons, and full indemnification without copyleft (LGPL/GPL) obligations. |
 
+---
 
+## 🌐 Open-Source GitHub Projects (Ranked by Stars)
 
-## Open-Source GitHub Projects
+The top open-source GUI frameworks, toolkits, and desktop app runtime engines, sorted in descending order by GitHub community popularity:
 
-
-
-- **[Qt (Community Edition)](https://github.com/qt/qtbase)**  
-
-  The most comprehensive C++ GUI toolkit, spanning desktop, embedded, and mobile. **Qt Widgets** for traditional desktop UIs; **Qt Quick/QML** for declarative, animated, touch-friendly interfaces. Extensive module ecosystem (network, multimedia, 3D, SQL). **Licensing nuance**: available under LGPL/GPL for open-source use; commercial projects often require the commercial license to avoid source-disclosure obligations or static linking restrictions . Best for teams that need a mature, feature-complete toolkit and can navigate the licensing choice.
-
-
-
-- **[wxWidgets](https://github.com/wxWidgets/wxWidgets)**  
-
-  A cross-platform C++ GUI library that **wraps native platform controls**—applications look and feel native on Windows, macOS, and Linux (GTK+) . Started in 1992, mature and stable. **Permissive license**: the wxWindows License (LGPL with an exception) allows both dynamic and static linking without requiring your application's source to be distributed, making it free for commercial use . Includes networking, threading, image handling, and HTML rendering. Best for teams that want native appearance and a business-friendly license without Qt's copyleft considerations.
-
-
-
-- **[Flutter Desktop](https://github.com/flutter/flutter)**  
-
-  Google's cross-platform UI toolkit with **desktop support** for Windows, macOS, and Linux . Uses Dart and a custom rendering engine for pixel-perfect consistency across platforms. **Desktop support** is stable, with plugins for native integration. **Trade-off**: does not use native widgets—apps have a consistent Flutter look rather than platform-native appearance. Best for teams that want a single codebase across mobile and desktop with a unified design language.
-
-
-
-- **[Electron](https://github.com/electron/electron)**  
-
-  The web-technology desktop shell. Embeds Chromium and Node.js to build cross-platform apps with JavaScript, HTML, and CSS . **Massive ecosystem**: any npm package, any frontend framework (React, Vue, Svelte). **Trade-offs**: large binary size and higher memory usage compared to native toolkits. Best for teams already building web applications that want to ship a desktop version without learning a new UI stack.
-
-
-
-- **[Avalonia UI](https://github.com/AvaloniaUI/Avalonia)**  
-
-  A cross-platform .NET UI framework using XAML, positioned as a modern alternative to WPF for Windows, macOS, and Linux. **Strengths**: mature tooling, active community, and a development model that aligns well with teams experienced in .NET/XAML . Best for .NET developers who want WPF-like development with cross-platform deployment.
-
-
-
-- **[.NET MAUI](https://github.com/dotnet/maui)**  
-
-  Microsoft's evolution of Xamarin.Forms, targeting Windows, macOS, Android, and iOS from a single C#/XAML codebase . On Windows, it uses WinUI 3 for native appearance. **Trade-off**: Windows support does not currently expose Windows App SDK controls directly, which may matter if you need deep WinUI integration . Best for teams already in the Microsoft ecosystem that need mobile and desktop from one codebase.
-
-
-
-- **[JUCE](https://github.com/juce-framework/JUCE)**  
-
-  The specialist framework for **audio applications and plugins**. Provides VST3, AU, and AAX plugin formats alongside standalone app targets . Used widely across the audio software industry. **Trade-off**: GUI toolkit is capable but less general-purpose than Qt or wxWidgets—its strength is audio integration. Best for audio tool developers, synthesizer builders, and plugin creators.
-
-
-
-- **[GTK](https://github.com/GNOME/gtk)**  
-
-  The primary GUI toolkit for the GNOME desktop and many Linux applications. C-based (with bindings for many languages). **Strengths**: deep Linux integration, native GNOME look. **Trade-off**: cross-platform support exists but is less seamless than Qt or wxWidgets; primary audience is Linux/GNOME. Best for Linux-first applications and GNOME ecosystem integration.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Dear ImGui** — Immediate-mode GUI library for tools, debug panels, and embedded HUDs. Renders via OpenGL/Vulkan/DirectX backends. Best for real-time tools and in-game interfaces where traditional retained-mode widgets are overkill .
-
-- **FLTK** — Lightweight C++ GUI toolkit with self-drawn widgets. Small binary size and fast startup. Best for resource-constrained environments and simple utilities .
-
-- **Kivy** — Python GUI framework for multi-touch applications. Best for Python developers building touch-oriented interfaces.
-
-- **Frameworks for building custom systems**: Use **Qt** when you need the broadest feature set and can handle licensing. Choose **wxWidgets** for native appearance with a permissive license. Use **Flutter** for unified mobile+desktop design. Choose **Electron** for web-team desktop deployment. Use **Avalonia** for .NET cross-platform XAML. Use **JUCE** for audio-specific applications.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Licensing is the critical decision with Qt**: the Community Edition (LGPL/GPL) imposes copyleft obligations, while the Commercial license removes them. Mixing licenses in one project is not permitted . Evaluate this before committing to Qt.
-
-- **Native vs. custom rendering**: wxWidgets and GTK use native controls (platform-consistent look); Qt (QML), Flutter, and Electron render their own widgets (design-consistent across platforms). The right choice depends on whether "native feel" or "brand consistency" matters more .
-
-- **Desktop is not mobile**: Flutter and .NET MAUI support both, but desktop-specific features (window management, file system access, system tray) may lag behind mobile maturity. Verify your target platform's support level before committing.
-
-
+### 1. [Flutter](https://github.com/flutter/flutter) [![Stars](https://img.shields.io/github/stars/flutter/flutter?style=social&color=white)](https://github.com/flutter/flutter/stargazers)
+- **Primary Language:** Dart / C++
+- **Architecture:** Custom 2D Hardware-Accelerated Renderer (Impeller / Skia)
+- **Platforms:** Windows, macOS, Linux, Android, iOS, Web
+- **License:** BSD-3-Clause
+- **Description:** Google’s open-source multi-platform UI framework. Rather than binding to native OS widgets, Flutter renders every pixel onto an OpenGL/Vulkan canvas for exact visual fidelity across desktop, mobile, and embedded platforms.
 
 ---
 
+### 2. [Electron](https://github.com/electron/electron) [![Stars](https://img.shields.io/github/stars/electron/electron?style=social&color=white)](https://github.com/electron/electron/stargazers)
+- **Primary Language:** JavaScript / TypeScript, C++
+- **Architecture:** Web Shell (Chromium + Node.js runtime)
+- **Platforms:** Windows, macOS, Linux
+- **License:** MIT
+- **Description:** The powerhouse behind VS Code, Slack, Discord, and Figma. Allows web developers to package standard HTML5, CSS3, and JavaScript/TypeScript frontends with deep OS-level native API access and background process management.
 
+---
 
-**Made for desktop application developers, cross-platform engineers, and teams choosing a GUI toolkit for long-term maintainability.**  
+### 3. [Tauri](https://github.com/tauri-apps/tauri) [![Stars](https://img.shields.io/github/stars/tauri-apps/tauri?style=social&color=white)](https://github.com/tauri-apps/tauri/stargazers)
+- **Primary Language:** Rust, JavaScript / TypeScript
+- **Architecture:** Native System WebView (WRY/TAO) + Rust Backend
+- **Platforms:** Windows, macOS, Linux, Android, iOS
+- **License:** MIT / Apache-2.0
+- **Description:** A security-focused, blazingly fast alternative to Electron. Uses the operating system's native webview (WebView2 on Windows, WebKit on macOS/Linux) instead of bundling Chromium, delivering tiny binaries (often <15 MB) with minimal RAM consumption.
 
-Let's make GUI frameworks more open, understandable, and appropriately licensed.
+---
+
+### 4. [Dear ImGui](https://github.com/ocornut/imgui) [![Stars](https://img.shields.io/github/stars/ocornut/imgui?style=social&color=white)](https://github.com/ocornut/imgui/stargazers)
+- **Primary Language:** C++
+- **Architecture:** Immediate Mode Graphical User Interface (Bloat-free, self-contained)
+- **Platforms:** Windows, macOS, Linux, Consoles, WebAssembly
+- **License:** MIT
+- **Description:** The industry standard for game engine tooling, debug overlays, in-game HUDs, and real-time 3D simulation utilities. Features zero external dependencies, fast vertex buffer generation, and seamless integration with DirectX, Vulkan, OpenGL, and Metal.
+
+---
+
+### 5. [Wails](https://github.com/wailsapp/wails) [![Stars](https://img.shields.io/github/stars/wailsapp/wails?style=social&color=white)](https://github.com/wailsapp/wails/stargazers)
+- **Primary Language:** Go, JavaScript / HTML
+- **Architecture:** Native Webview Shell + Go Backend
+- **Platforms:** Windows, macOS, Linux
+- **License:** MIT
+- **Description:** Combines the simplicity and performance of Go with modern frontend web frameworks (React, Vue, Svelte). Similar in philosophy to Tauri, providing lightweight desktop packaging with seamless Go-to-JavaScript IPC bindings.
+
+---
+
+### 6. [Iced](https://github.com/iced-rs/iced) [![Stars](https://img.shields.io/github/stars/iced-rs/iced?style=social&color=white)](https://github.com/iced-rs/iced/stargazers)
+- **Primary Language:** Rust
+- **Architecture:** Declarative / Elm-inspired Architecture with WGPU backend
+- **Platforms:** Windows, macOS, Linux, WebAssembly
+- **License:** MIT
+- **Description:** A cross-platform GUI library for Rust inspired by The Elm Architecture. Features a type-safe reactive state model, first-class async support, modular widgets, and hardware acceleration via `wgpu`.
+
+---
+
+### 7. [Avalonia UI](https://github.com/AvaloniaUI/Avalonia) [![Stars](https://img.shields.io/github/stars/AvaloniaUI/Avalonia)](https://github.com/AvaloniaUI/Avalonia/stargazers)
+- **Primary Language:** C# / .NET
+- **Architecture:** XAML-based Cross-Platform Retained Mode Toolkit
+- **Platforms:** Windows, macOS, Linux, iOS, Android, WebAssembly
+- **License:** MIT
+- **Description:** The premier open-source cross-platform UI framework for .NET. Delivers a flexible XAML dialect and MVVM styling engine similar to WPF/UWP, allowing enterprise .NET teams to run high-fidelity graphical applications natively on Linux and macOS.
+
+---
+
+### 8. [egui](https://github.com/emilk/egui) [![Stars](https://img.shields.io/github/stars/emilk/egui?style=social&color=white)](https://github.com/emilk/egui/stargazers)
+- **Primary Language:** Rust
+- **Architecture:** Immediate Mode GUI (Pure Rust)
+- **Platforms:** Windows, macOS, Linux, WebAssembly, Android
+- **License:** MIT / Apache-2.0
+- **Description:** An easy-to-use immediate mode GUI in 100% Rust. Highly portable and responsive with zero overhead, making it ideal for games, data visualization dashboards, native tools, and interactive WebAssembly apps.
+
+---
+
+### 9. [Fyne](https://github.com/fyne-io/fyne) [![Stars](https://img.shields.io/github/stars/fyne-io/fyne?style=social&color=white)](https://github.com/fyne-io/fyne/stargazers)
+- **Primary Language:** Go
+- **Architecture:** Canvas-rendered Material Design Widgets (OpenGL)
+- **Platforms:** Windows, macOS, Linux, BSD, iOS, Android, WebAssembly
+- **License:** BSD-3-Clause
+- **Description:** An easy-to-learn, cross-platform UI toolkit written in Go and designed according to Material Design specifications. Renders vector-based scalable widgets with built-in theme support and cross-compilation simplicity.
+
+---
+
+### 10. [Slint](https://github.com/slint-ui/slint) [![Stars](https://img.shields.io/github/stars/slint-ui/slint?style=social&color=white)](https://github.com/slint-ui/slint/stargazers)
+- **Primary Language:** Rust, C++, JavaScript
+- **Architecture:** Compiled Declarative UI Language (`.slint`)
+- **Platforms:** Linux, Windows, macOS, Embedded Microcontrollers (MCU), WebAssembly
+- **License:** GPLv3 / Royalty-Free Commercial / Paid Enterprise
+- **Description:** A next-generation UI toolkit designed to scale from low-memory microcontrollers with under 300 KB RAM to powerful multi-monitor desktop environments. Features a clean domain-specific syntax compiled directly to native code.
+
+---
+
+### 11. [.NET MAUI](https://github.com/dotnet/maui) [![Stars](https://img.shields.io/github/stars/dotnet/maui?style=social&color=white)](https://github.com/dotnet/maui/stargazers)
+- **Primary Language:** C# / XAML
+- **Architecture:** Native Platform Control Abstraction (WinUI 3, Mac Catalyst, Android, iOS)
+- **Platforms:** Windows, macOS, Android, iOS
+- **License:** MIT
+- **Description:** Microsoft’s multi-platform app UI framework evolving Xamarin.Forms. Maps common UI controls directly to platform-native underlying controls (WinUI 3 on Windows, Mac Catalyst on macOS), ideal for enterprise Microsoft stacks.
+
+---
+
+### 12. [Kivy](https://github.com/kivy/kivy) [![Stars](https://img.shields.io/github/stars/kivy/kivy?style=social&color=white)](https://github.com/kivy/kivy/stargazers)
+- **Primary Language:** Python, Cython
+- **Architecture:** Custom OpenGL ES 2 Accelerated Widget Tree
+- **Platforms:** Windows, macOS, Linux, Android, iOS, Raspberry Pi
+- **License:** MIT
+- **Description:** An open-source Python framework for rapid development of applications that utilize multi-touch, gesture-driven user interfaces. Popular for hardware kiosks, embedded touchscreens, and rapid Python prototypes.
+
+---
+
+### 13. [JUCE](https://github.com/juce-framework/JUCE) [![Stars](https://img.shields.io/github/stars/juce-framework/JUCE?style=social&color=white)](https://github.com/juce-framework/JUCE/stargazers)
+- **Primary Language:** C++
+- **Architecture:** Audio Engine + Custom Component GUI Framework
+- **Platforms:** Windows, macOS, Linux, iOS, Android
+- **License:** AGPLv3 / Commercial
+- **Description:** The undisputed standard in audio software, synthesizers, and plugin creation. Powers commercial VST3, AU, and AAX plugins, integrating real-time audio DSP pipelines with custom UI components.
+
+---
+
+### 14. [wxWidgets](https://github.com/wxWidgets/wxWidgets) [![Stars](https://img.shields.io/github/stars/wxWidgets/wxWidgets?style=social&color=white)](https://github.com/wxWidgets/wxWidgets/stargazers)
+- **Primary Language:** C++
+- **Architecture:** Native OS Widget Wrapper (Win32, Cocoa, GTK3/4)
+- **Platforms:** Windows, macOS, Linux
+- **License:** wxWindows Library Licence (LGPL with permissive linking exception)
+- **Description:** Established in 1992, wxWidgets provides a C++ API that wraps the host operating system's native widgets. Applications inherit the genuine look, feel, and accessibility features of Windows, macOS, and Linux without copyleft encumbrance.
+
+---
+
+### 15. [Qt (Qt Base / Community Edition)](https://github.com/qt/qtbase) [![Stars](https://img.shields.io/github/stars/qt/qtbase?style=social&color=white)](https://github.com/qt/qtbase/stargazers)
+- **Primary Language:** C++, QML
+- **Architecture:** Dual-engine (Traditional QWidget & Declarative Qt Quick / QML)
+- **Platforms:** Windows, macOS, Linux, Embedded Linux, Android, iOS, VxWorks, QNX
+- **License:** LGPLv3 / GPLv3 / Commercial
+- **Description:** The most complete and battle-tested C++ application development framework in existence. Offers comprehensive windowing, layout, 2D/3D graphics, networking, internationalization, and embedded automotive/industrial device integration.
+
+---
+
+### 16. [FLTK](https://github.com/fltk/fltk) [![Stars](https://img.shields.io/github/stars/fltk/fltk?style=social&color=white)](https://github.com/fltk/fltk/stargazers)
+- **Primary Language:** C++
+- **Architecture:** Lightweight Self-Drawn Widgets
+- **Platforms:** Windows, macOS, Linux, POSIX
+- **License:** LGPL with static linking exception
+- **Description:** Fast Light Toolkit (FLTK). Renowned for its miniature binary footprint, fast compilation, and instant startup times. Widely employed in lightweight utility distributions and embedded systems.
+
+---
+
+### 17. [GTK](https://github.com/GNOME/gtk) [![Stars](https://img.shields.io/github/stars/GNOME/gtk?style=social&color=white)](https://github.com/GNOME/gtk/stargazers)
+- **Primary Language:** C
+- **Architecture:** Object-Oriented C (GObject) with CSS Styling Engine
+- **Platforms:** Linux, Windows, macOS
+- **License:** LGPL-2.1-or-later
+- **Description:** The foundation of the GNOME desktop environment, GIMP, and thousands of open-source Linux software applications. Features modern CSS-based theming, accessibility via ATK, and Wayland/X11 compositing support.
+
+---
+
+## 💡 Architectural Guide: How to Choose
+
+| Criterion | Recommended Frameworks | Key Rationale |
+| :--- | :--- | :--- |
+| **Native Look & Feel** | [wxWidgets](https://github.com/wxWidgets/wxWidgets), [.NET MAUI](https://github.com/dotnet/maui), [GTK](https://github.com/GNOME/gtk) | Direct binding to native OS windowing controls and accessibility engines. |
+| **Modern Web Stack** | [Tauri](https://github.com/tauri-apps/tauri), [Electron](https://github.com/electron/electron), [Wails](https://github.com/wailsapp/wails) | Leverage React, Vue, Svelte, or TypeScript without rebuilding UI primitives. |
+| **Performance & Tiny Binaries** | [Tauri](https://github.com/tauri-apps/tauri), [Slint](https://github.com/slint-ui/slint), [FLTK](https://github.com/fltk/fltk), [egui](https://github.com/emilk/egui) | Low RAM usage, zero heavy web runtimes, instantaneous cold-boot speed. |
+| **Game Engines & Real-Time Tools** | [Dear ImGui](https://github.com/ocornut/imgui), [egui](https://github.com/emilk/egui) | Immediate-mode rendering loop directly synced with GPU frame draws. |
+| **Audio Synthesizers & Plugins** | [JUCE](https://github.com/juce-framework/JUCE) | Industry-standard VST3, AU, and AAX format support with real-time audio threads. |
+| **Cross-Platform Mobile + Desktop** | [Flutter](https://github.com/flutter/flutter), [.NET MAUI](https://github.com/dotnet/maui), [Avalonia](https://github.com/AvaloniaUI/Avalonia) | High code sharing (>90%) between desktop operating systems and iOS/Android. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions from developers, framework maintainers, and community enthusiasts are very welcome! 🚀
+
+1. 🍴 **Fork the repo** to your own GitHub account.
+2. 🌿 **Create a new branch**: `git checkout -b add/my-gui-framework`.
+3. 📝 **Add or update an entry** under the relevant section following the standardized template:
+   - Framework Name & official GitHub/website link
+   - GitHub stars social badge linking to stargazers
+   - Architecture & primary programming languages
+   - Accurate, factual 2–3 sentence description
+4. 📬 **Submit a Pull Request** with a brief summary of the framework and why it belongs in this curated list.
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated directory has helped you evaluate GUI frameworks or choose the right technology for your desktop application project, please consider showing your support:
+
+- ⭐ **Star this repository** to help other developers discover it!
+- 🍴 **Fork and share** it across developer communities, Reddit, and Discord.
+- ☕ **Buy a coffee or sponsor development:** You can directly back our open-source research and maintenance via our **[GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)**. Every sponsorship helps keep this ecosystem index fresh and rigorously updated!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-GUI-Frameworks&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-GUI-Frameworks&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer & Licensing Notes
+
+- This repository is a **community-curated index** and is not officially affiliated with or endorsed by any listed organization.
+- **Licensing Compliance:** Always consult each project's individual software license prior to enterprise deployment:
+  - **Qt:** The Community Edition is licensed under LGPLv3/GPLv3. Static linking or use of commercial-only modules may require a paid commercial license to prevent source code disclosure liabilities.
+  - **wxWidgets:** Uses the wxWindows Library Licence, granting explicit permissions for static linking in closed-source commercial software without copyleft requirements.
+  - **Electron / Tauri:** Permissively licensed (MIT / Apache-2.0), but runtime bundle dependencies must be reviewed individually.
+- **Desktop vs. Mobile Caveat:** While multi-platform frameworks (Flutter, MAUI, Kivy) support both desktop and mobile, verify desktop platform maturity (e.g., deep system tray integration, multi-windowing, and low-level accessibility) before committing architecture.
+
+---
+
+<p align="center">
+  <b>Built with care for desktop software engineers, system programmers, and cross-platform UI architects.</b><br />
+  <sub>Maintained by <a href="https://github.com/ishandutta2007">@ishandutta2007</a> and wonderful community contributors.</sub>
+</p>

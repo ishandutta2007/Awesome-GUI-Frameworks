@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="340" style="background:#0b0f19;border-radius:12px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;overflow:hidden;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
+    </linearGradient>
+
+    <filter id="blurLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60" result="blur" />
+    </filter>
+
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <style>
+    /* Background subtle pulsating glow */
+    @keyframes pulseOrb {
+      0% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      50% { transform: scale(1.18) translate(30px, -20px); opacity: 0.6; }
+      100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+    }
+
+    /* Floating pill badge animations */
+    @keyframes floatPill1 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-10px) rotate(-1.5deg); }
+    }
+    @keyframes floatPill2 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-12px) rotate(1.5deg); }
+    }
+    @keyframes floatPill3 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-9px) rotate(-1deg); }
+    }
+
+    /* Subtle grid line pulse */
+    @keyframes gridSweep {
+      0% { stroke-dashoffset: 800; }
+      100% { stroke-dashoffset: 0; }
+    }
+
+    .orb-1 { animation: pulseOrb 9s ease-in-out infinite; transform-origin: 200px 100px; }
+    .orb-2 { animation: pulseOrb 11s ease-in-out infinite 3s; transform-origin: 950px 220px; }
+    .pill-1 { animation: floatPill1 5s ease-in-out infinite; }
+    .pill-2 { animation: floatPill2 6s ease-in-out infinite 0.7s; }
+    .pill-3 { animation: floatPill3 5.5s ease-in-out infinite 1.4s; }
+    .grid-path { stroke-dasharray: 40 40; animation: gridSweep 25s linear infinite; }
+  </style>
+
+  <!-- Deep Background Layer -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+
+  <!-- Animated Ambient Orbs in Deep Background -->
+  <circle cx="180" cy="110" r="140" fill="#38bdf8" filter="url(#blurLight)" class="orb-1" opacity="0.35" />
+  <circle cx="1020" cy="210" r="160" fill="#a855f7" filter="url(#blurLight)" class="orb-2" opacity="0.3" />
+  <circle cx="620" cy="50" r="110" fill="#6366f1" filter="url(#blurLight)" opacity="0.2" />
+
+  <!-- Subtle Digital Architectural Grid Lines in Background -->
+  <g stroke="#334155" stroke-opacity="0.28" stroke-width="1" class="grid-path">
+    <line x1="0" y1="85" x2="1200" y2="85" />
+    <line x1="0" y1="170" x2="1200" y2="170" />
+    <line x1="0" y1="255" x2="1200" y2="255" />
+    <line x1="200" y1="0" x2="200" y2="340" />
+    <line x1="400" y1="0" x2="400" y2="340" />
+    <line x1="600" y1="0" x2="600" y2="340" />
+    <line x1="800" y1="0" x2="800" y2="340" />
+    <line x1="1000" y1="0" x2="1000" y2="340" />
+  </g>
+
+  <!-- Side Floating Framework Badges / Tech Pills (Carefully placed at edges to never overlap center foreground) -->
+  <g class="pill-1">
+    <g transform="translate(60, 48)" filter="url(#cardShadow)">
+      <rect width="130" height="34" rx="17" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="20" cy="17" r="5" fill="#38bdf8" />
+      <text x="34" y="22" fill="#e2e8f0" font-size="12" font-weight="600">⚡ Tauri &amp; Rust</text>
+    </g>
+  </g>
+
+  <g class="pill-2">
+    <g transform="translate(45, 230)" filter="url(#cardShadow)">
+      <rect width="145" height="34" rx="17" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="20" cy="17" r="5" fill="#818cf8" />
+      <text x="34" y="22" fill="#e2e8f0" font-size="12" font-weight="600">✨ Flutter &amp; Dart</text>
+    </g>
+  </g>
+
+  <g class="pill-3">
+    <g transform="translate(1005, 52)" filter="url(#cardShadow)">
+      <rect width="140" height="34" rx="17" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="20" cy="17" r="5" fill="#c084fc" />
+      <text x="34" y="22" fill="#e2e8f0" font-size="12" font-weight="600">🎨 Qt &amp; C++/QML</text>
+    </g>
+  </g>
+
+  <g class="pill-1">
+    <g transform="translate(995, 230)" filter="url(#cardShadow)">
+      <rect width="150" height="34" rx="17" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="20" cy="17" r="5" fill="#38bdf8" />
+      <text x="34" y="22" fill="#e2e8f0" font-size="12" font-weight="600">🚀 Electron &amp; Web</text>
+    </g>
+  </g>
+
+  <!-- Center Decorative Glow Divider Line -->
+  <rect x="450" y="45" width="300" height="1.5" fill="url(#primaryGlow)" opacity="0.4" />
+
+  <!-- MAIN FOREGROUND TEXT (Rock Solid, Sharp, Highest Contrast & Clarity) -->
+  <!-- Top Category Tag -->
+  <g transform="translate(600, 75)" text-anchor="middle">
+    <rect x="-125" y="-14" width="250" height="26" rx="13" fill="#1e293b" stroke="#475569" stroke-width="1" opacity="0.9" />
+    <text y="4" fill="#38bdf8" font-size="11" font-weight="700" letter-spacing="2">CURATED ECOSYSTEM</text>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="148" text-anchor="middle" fill="#ffffff" font-size="44" font-weight="800" letter-spacing="-0.5">
+    Awesome GUI Frameworks
+  </text>
+
+  <!-- Gradient Underline Accent for Title -->
+  <rect x="360" y="168" width="480" height="3" rx="1.5" fill="url(#primaryGlow)" />
+
+  <!-- Subtitle Line 1 -->
+  <text x="600" y="206" text-anchor="middle" fill="#cbd5e1" font-size="17" font-weight="500">
+    The Definitive Guide to Native Desktop UIs, Cross-Platform Architectures &amp; UI Toolkits
+  </text>
+
+  <!-- Subtitle Line 2 / Feature Pills Line -->
+  <text x="600" y="238" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="400">
+    ⚡ High Performance Desktop &bull; 🌐 Modern Web Shells &bull; 📱 Cross-Platform Toolkits &bull; 🔒 Permissive &amp; Commercial Licensures
+  </text>
+
+  <!-- Bottom Interactive Stats / Platform Chips -->
+  <g transform="translate(600, 282)" text-anchor="middle">
+    <rect x="-240" y="-15" width="480" height="30" rx="15" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <text y="5" fill="#e2e8f0" font-size="12" font-weight="600">
+      <tspan fill="#38bdf8">C++</tspan> &bull; 
+      <tspan fill="#818cf8">Rust</tspan> &bull; 
+      <tspan fill="#c084fc">Go</tspan> &bull; 
+      <tspan fill="#38bdf8">Dart</tspan> &bull; 
+      <tspan fill="#818cf8">C# / .NET</tspan> &bull; 
+      <tspan fill="#c084fc">Python</tspan> &bull; 
+      <tspan fill="#38bdf8">JavaScript / TypeScript</tspan>
+    </text>
+  </g>
+</svg>
